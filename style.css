@@ -1,0 +1,402 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    background-color: gray;
+    height: 1100px;
+    display: grid;
+}
+
+
+.kapsayici{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.solKutu{
+    width: 100% ;
+    height: 1000px;
+   background-image: url(https://images.pexels.com/photos/3308588/pexels-photo-3308588.jpeg?cs=srgb&dl=pexels-mnm-zameer-3308588.jpg&fm=jpg);
+    border: 1px solid black;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+#cizgi{
+    display: flex;
+    width: 350px;
+    height: 2px;
+}
+#cizgi2{
+    display:flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+#webSıteYazı{
+    display: inline-flex;
+    align-items: end;
+    justify-content: end;
+    width: 124px;
+    height: 15px;
+    font-size: 11px;
+    color: white;
+}
+#muslum{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    width: 186px;
+    height: 0px;
+    font-size: 11px;
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 100px;
+    
+}
+nav ul li{
+    display: inline-flex;
+    justify-content: space-evenly;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    width: 150px;
+    border: 1px solid white;
+    line-height: 50px;
+    border-radius: 30px;
+}
+#logo{
+   margin-left: 35px;
+    height: 120px;
+    font-size: 3rem;
+    line-height: 3rem;
+    width: 170px;
+    text-align: center;
+    
+}
+
+.kutular{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:780px ;
+}
+.kutu1{
+   display: flex;
+    color: white;
+    width: 300px;
+    height: 550px;
+    border: 1px solid white;
+     background-repeat: no-repeat;
+    background-image: url(./image/programming-code-abstract-technology-background-260nw-736520107.png); height:700px ; 
+    border: none;
+    }
+.yazilar{
+    text-align: center;
+    line-height: 100px; 
+    color: white;
+    
+}
+#welcome{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 137px;
+    font-size: 3rem;
+    text-shadow: -4px 8px black;
+}
+.yazilar ul{
+    display: flex;
+    width: 300px;
+    height: 60px;
+    border-bottom: 2px solid black;
+    box-shadow: 8px 2px black;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+   
+    
+}
+
+#codeLogo{
+ 
+    justify-content: start;
+    width: 29px;
+}
+.codeLogo1{
+   
+    justify-content: center;
+    width: 29px;
+}
+.yazilar h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+
+
+.kutu2{
+    display: inline-flex;
+    justify-content: center;
+    align-self:center;
+    width: 300px;
+    height: 500px;
+    border: 1px solid gray;
+    background-color: gold;
+    border: none;
+    
+}
+
+.yazilar1 ul{
+    display: flex;
+    width: 300px;
+    height: 60px;
+    border-bottom: 2px solid black;
+    box-shadow: 8px 2px black;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    
+}
+
+
+
+#muslumInfo{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 2px 2px white;
+}
+#sorunCozma{
+    display: inline-flex;
+    justify-content: center;
+    align-items:center;
+    height: 140px;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 2px 2px white;
+}
+
+#cizgi3{
+    margin-left: 70px;
+    width: 150px;
+    box-shadow: 1px 1px black;
+}
+
+
+.kutu3{
+    
+    width: 300px;
+    height: 652px;
+    border: 1px solid white;
+    background-color:white;
+    
+}
+
+.yazilar2 ul{
+    display: flex;
+    
+    width: 300px;
+    height: 60px;
+    border-bottom: 2px solid black;
+    box-shadow: 8px 2px black;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+/* FORM KUTUSU */
+#gonderBtn{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 274px;
+    height: 53px;
+}
+#cizgi3{
+    display:flex;
+    justify-content: center ;
+    width: 155px; 
+}
+#mesajGonder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    height: 158px;
+    margin-left: 20px;
+
+}
+#eMail{
+    height: 36px;
+    display: inline-flex;
+    align-items: end;
+}
+
+
+/* İKİNCİ KUTU */
+
+.ikinciKutu{
+
+    background-color: rgb(3, 3, 28);
+    height: 1000px;
+}
+
+#bosluk{
+    height: 150px;
+}
+
+#benMuslum{
+    text-align: center;
+    height: 700px;
+    border: 2px solid black;
+    background-color: rgb(215, 206, 194);
+}
+
+#benKimim{
+    display: inline-flex;
+    align-items: end;
+    text-align: center;
+    height: 61px;
+    font-size: 2rem;
+    text-shadow: 9px 5px 4px floralwhite;
+}
+
+.kenTanitma{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 239px;
+    width: 339px;
+}
+#tanitma{
+    font-size: 6px;
+    text-align: center;
+    width: 207px;
+}
+#muslumFoto{
+    border: 1px solid wheat;
+    border-radius: 13%;
+
+}
+.sagKutular{
+    display: flex;
+    justify-content: space-evenly;
+    height: 440px;
+
+}
+
+/* PROGRAMLAR BACKGORUND */
+
+#foto1{
+    display: inline-flex;
+    align-self: baseline;
+}
+#foto2{
+    display: inline-flex;
+    align-self: center;
+}
+#foto3{
+    display: inline-flex;
+    align-self: flex-end;
+}
+
+/* FOOTER KISMI */
+footer ul{
+    display: flex;
+    
+    justify-content: space-evenly;
+    list-style: none;
+}
+#socialMedia{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    font-size: 1.4rem;
+    text-align: center;
+    color: white;
+    height: 50px;
+}
+#socialMedia2{
+    display: inline-flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-left: 50px;
+    width: 170px;
+}
+#home{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+#footerlogo{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 35px;
+    height: 80px;
+    font-size: 1.3rem;
+    line-height: 3rem;
+    width: 120px;
+    text-align: center;
+}
+#phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#phone ul{
+    display: inline-flex;
+    justify-content: space-evenly;  
+    width: 175px;  
+}
+#location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 341px;
+    height: 43px;
+}
+#adres{
+    font-size: 13px;
+}
+#location2{
+    display: inline-flex;
+    align-items: center;
+    height: 28px;
+    width: 22px;
+}
+#location li{
+    display: inline-flex;
+    width: 350px;
+    justify-content: center;
+}
+
+#mail{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    
+}
+#mailLogo{
+    width: 25px;
+}
